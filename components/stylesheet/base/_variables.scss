@@ -1,14 +1,14 @@
 
 //colors
-$color-primary: #E45639;
-$color-secondary: #F8CF22;
+$color-primary: #49D0F7;
+$color-secondary: #22638B;
 $color-tertiary: #796B9C;
-$color-black: #000000;
+$color-black: #4C5359;
 $color-white: #FFFFFF;
 
 
 $light-color-gray: lighten($color-black, 80% );
-$dark-color-gray: lighten($color-black, 20% );
+$dark-color-gray: lighten($color-black, 10% );
 $mid-color-gray: lighten($color-black, 50% );
 $mid-color2-gray: lighten($color-black, 60% );
 $text-color-gray: lighten($color-black, 30% );
@@ -34,7 +34,7 @@ $opacity-color-primary: rgba($color-primary,0.95);
 $opacity2-color-primary: rgba($color-primary,0.80);
 
 //fonts
-$font-primary: evelethclean_regular, sans-serif;
+$font-primary: 'Roboto', sans-serif;
 $font-primary-thin: evelethclean_thin, sans-serif;
 $font-secondary: ProximaNova-Medium, sans-serif;
 $font-primaryLight: Sica-Light, sans-serif;
@@ -43,3 +43,5 @@ $font-primaryLight: Sica-Light, sans-serif;
 $tablet-width: 768px;
 $laptop-width: 992px;
 $desktop-width: 1200px;
+
+$border-radius: 4px;

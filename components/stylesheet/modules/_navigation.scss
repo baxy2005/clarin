@@ -1,0 +1,73 @@
+.navbar {
+  min-height: 90px;
+  margin-bottom: 22px;
+  border: 1px solid transparent;
+}
+.navbar-default {
+  background-color: #FFF;
+}
+.navbar-fixed-top {
+  @include laptop {
+    position: absolute;
+    text-align: center;
+
+  }
+}
+.navmenu-fixed-right  {
+  @include laptop {
+    position: relative;
+  }
+}
+
+.navbar-toggle {
+  float: left;
+  margin-left: 15px;
+}
+
+.navmenu {
+  @include laptop {
+    width: 100%;
+  }
+}
+.navmenu-default {
+  background-color: $color-black;
+}
+
+.navmenu-fixed-left {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 1030;
+  overflow-y: auto;
+  border-radius: 0;
+  @include laptop {
+    position: relative;
+    z-index: 8888;
+    top: 90px;
+    overflow: visible;
+    height: 60px;
+    }
+  }
+
+.navmenu-nav {
+  @include laptop {
+    display: flex;
+    justify-content: center;
+  }
+}
+.navmenu-nav.nav>li {
+  @include laptop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.navmenu-nav.nav>li>a {
+  color: $mid-color-gray;
+  &:focus, &:hover {
+    color: white;
+  }
+  @include laptop {
+    padding: 19px 15px;
+  }
+}

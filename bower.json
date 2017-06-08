@@ -1,5 +1,5 @@
 {
-  "name": "workflow",
+  "name": "clarin",
   "description": "",
   "main": "index.js",
   "authors": [
@@ -16,12 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "^3.3.7",
-    "gsap": "^1.19.0",
-    "owl.carousel": "^2.2.0",
-    "scrollmagic": "^2.0.5",
-    "font-awesome": "^4.7.0",
-    "animate.css": "^3.5.2",
-    "bootstrap-sass": "^3.3.7"
-  }
+    "bootstrap-sass": "^3.3.7",
+    "jasny-bootstrap": "^3.1.3"
+  },
 }
