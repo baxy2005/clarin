@@ -2,3 +2,61 @@
 .media > .pull-left {
   padding-right: 55px;
 }
+.media:last-of-type  {
+  border-bottom: none;
+}
+.media {
+  border-bottom: 1px solid $mid-color-gray;
+  margin-top: 40px;
+  .media-left{
+    img {
+      border-radius: $border-radius;
+    }
+    display: block;
+    @include laptop {
+      display: table-cell;
+    }
+  }
+  .media-body {
+    h4 {
+      font-size: 24px;
+      line-height: 32px;
+      margin-bottom: 0px
+    }
+    small {
+      font-weight: 300;
+      color: $mid-color-gray;
+      margin-bottom: 15px;
+      display: block;
+    }
+    p {
+      font-size: 14px;
+      line-height: 26px;
+    }
+    p:last-of-type {
+      margin-bottom: 20px;
+    }
+    .btn-primary {
+      background-color: transparent;
+      border: none;
+      color: $mid-color-gray;
+      text-align: left;
+      font-weight: 400;
+      margin-bottom: 30px;
+      width: auto;
+      display: flex;
+      line-height: 1.6333;
+    }
+    .icon-read-more {
+      width: 22px;
+      height: 22px;
+      border-radius: 100px;
+      border: solid 1px $mid-color-gray;
+      display: inline-block;
+      line-height: 1;
+      margin-left: 10px;
+      background-image: url("../images/clarin-read-more-icon.svg");
+      background-position: -1px -1px;
+    }
+  }
+}
