@@ -1,0 +1,42 @@
+.panel {
+    margin-bottom: 22px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    border-bottom: 1px solid $mid-color2-gray;
+}
+.panel:first-child {
+  border-top: 1px solid $mid-color2-gray;
+
+}
+.panel-default>.panel-heading {
+    color: $color-primary;
+    background-color: white;
+    border-color: $mid-color2-gray;
+}
+.panel-heading {
+  padding: 20px 0;
+  .panel-title {
+    font-size: 22px;
+    padding:0;
+    .glyphicon-triangle-bottom {
+      float: right;
+      color: $text-color-gray;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+  }
+}
+.panel-group .panel+.panel {
+    margin-top: 0;
+}
+.panel-body {
+    padding: 0px 0 20px 0;
+}
+.panel-title>a {
+  display: block;
+}
+.panel-group .panel-heading+.panel-collapse>.panel-body, .panel-group .panel-heading+.panel-collapse>.list-group {
+    border-top: none;
+}

@@ -1,0 +1,17 @@
+.breadcrumb {
+  background-color: transparent;
+  padding: 8px 0;
+  font-size: 14px;
+  color: $mid-color-gray;
+  a {
+    color: $color-secondary;
+  }
+}
+.breadcrumb>li+li:before {
+    content: "> ";
+    padding: 0 5px;
+    color: $mid-color-gray;
+}
+.breadcrumb>.active {
+    color:$mid-color-gray;
+}

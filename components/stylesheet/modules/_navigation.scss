@@ -5,12 +5,17 @@
 }
 
 .navbar {
-  min-height: 90px;
+  min-height: 60px;
   margin-bottom: 22px;
   border: 1px solid transparent;
+  @include laptop {
+    min-height: 90px;
+  }
+
 }
 .navbar-default {
   background-color: #FFF;
+  box-shadow: -1px -7px 18px 0px;
 }
 .navbar-fixed-top {
   @include laptop {
@@ -28,6 +33,7 @@
 .navbar-toggle {
   float: left;
   margin-left: 15px;
+  margin-top: 15px;
 }
 
 .navmenu {
@@ -75,5 +81,43 @@
   }
   @include laptop {
     padding: 19px 15px;
+  }
+}
+
+.container--mask {
+  margin: 0 15px;
+  width: auto;
+  overflow: hidden;
+  padding: 0;
+  margin-left: 0px;
+  float: right;
+  @include laptop {
+    margin: 0  auto;
+    width: 100%;
+  }
+  img {
+    width: 277px;
+    height: auto;
+    margin-left: -55px;
+    @include laptop {
+      width: 401px;
+      height: auto;
+    }
+  }
+}
+
+@media (min-width: 768px){
+  .navbar-toggle {
+      display: block ;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-toggle {
+      display: none;
+  }
+}
+@media (min-width: 992px){
+  .navmenu-nav.nav>li>a {
+      padding: 16px 15px;
   }
 }

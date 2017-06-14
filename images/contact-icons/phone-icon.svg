@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="24px" viewBox="0 0 17 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>phone-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="28" width="264" height="232" rx="4"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="264" height="232" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="a" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="contact" transform="translate(-77.000000, -79.000000)">
+            <g transform="translate(46.000000, -2.000000)">
+                <use id="Rectangle-4-Copy-8" stroke="#D5DADE" mask="url(#mask-2)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <g id="iphone" transform="translate(31.000000, 81.000000)" fill="#4C5359">
+                    <path d="M15,24 L2,24 C0.8954305,24 0,23.1045695 0,22 L0,2 C0,0.8954305 0.8954305,0 2,0 L15,0 C16.1045695,0 17,0.8954305 17,2 L17,22 C17,23.1045695 16.1045695,24 15,24 L15,24 Z M15,2 L2,2 L2,22 L15,22 L15,2 L15,2 Z M5,4 L12,4 C12.5522847,4 13,4.44771525 13,5 L13,16 C13,16.5522847 12.5522847,17 12,17 L5,17 C4.44771525,17 4,16.5522847 4,16 L4,5 C4,4.44771525 4.44771525,4 5,4 L5,4 Z M6,15 L11,15 L11,6 L6,6 L6,15 L6,15 Z M8.5,18 C9.32842712,18 10,18.6715729 10,19.5 C10,20.3284271 9.32842712,21 8.5,21 C7.67157288,21 7,20.3284271 7,19.5 C7,18.6715729 7.67157288,18 8.5,18 L8.5,18 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

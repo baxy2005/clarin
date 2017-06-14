@@ -1,0 +1,27 @@
+.list-group {
+  margin-top: 15px;
+.list-group-item {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 0px;
+    font-size: 14px;
+    padding: 10px 0px;
+    padding-left: 45px;
+    background-repeat: no-repeat;
+  }
+  .list-group-item-phone{
+    background-image: url("../images/contact-icons/phone-icon.svg");
+    background-position: 7px 12px;
+  }
+  .list-group-item-email{
+    background-image: url("../images/contact-icons/e-mail-icon.svg");
+    background-position: 3px 14px;
+  }
+  .list-group-item-address{
+    background-image: url("../images/contact-icons/address-icon.svg");
+    background-position: 7px 13px;
+  }
+}
+.list-group-item:last-child {
+  border: none;
+}

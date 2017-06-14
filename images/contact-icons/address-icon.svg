@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="19px" viewBox="0 0 16 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>address-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="28" width="264" height="232" rx="4"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="264" height="232" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="a" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="contact" transform="translate(-77.000000, -181.000000)">
+            <g transform="translate(46.000000, -2.000000)">
+                <use id="Rectangle-4-Copy-8" stroke="#D5DADE" mask="url(#mask-2)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <g id="pin" transform="translate(31.000000, 183.000000)" fill="#4C5359">
+                    <path d="M8,1.52056145e-12 C3.581722,1.52056145e-12 2.27373675e-13,3.581722 2.27373675e-13,8 C2.27373675e-13,12.418 8,19 8,19 C8,19 16,12.418 16,8 C16,3.581722 12.418278,1.52056145e-12 8,1.52056145e-12 L8,1.52056145e-12 Z M8,11.625 C5.99796778,11.625 4.375,10.0020322 4.375,8 C4.375,5.99796778 5.99796778,4.375 8,4.375 C10.0020322,4.375 11.625,5.99796778 11.625,8 C11.625,10.0020322 10.0020322,11.625 8,11.625 L8,11.625 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
