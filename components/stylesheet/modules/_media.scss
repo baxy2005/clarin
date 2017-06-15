@@ -1,7 +1,4 @@
-.media-left,
-.media > .pull-left {
-  padding-right: 55px;
-}
+
 .media:last-of-type  {
   border-bottom: none;
 }
@@ -9,10 +6,13 @@
   border-bottom: 1px solid $mid-color-gray;
   margin-top: 40px;
   .media-left{
+    padding: 0;
     img {
       border-radius: $border-radius;
+      margin-right: 55px;
     }
     display: block;
+    margin-bottom: 30px;
     @include laptop {
       display: table-cell;
     }

@@ -1,0 +1,12 @@
+footer {
+  background-color: $mid-color-gray;
+  p {
+    font-size: 14px;
+    padding: 30px 0 ;
+    text-align: center;
+    line-height: 20px;
+    @include laptop {
+      text-align: left;
+    }
+  }
+}

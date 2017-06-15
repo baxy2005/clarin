@@ -1,0 +1,34 @@
+.pagination {
+  font-size: 14px;
+  > li {
+    > a,
+    > span {
+      color: $color-secondary;
+    }
+  }
+
+  > li > a,
+  > li > span {
+    &:hover,
+    &:focus {
+      z-index: 2;
+      color: $color-secondary;
+      background-color: $pagination-hover-bg;
+      border-color: $pagination-hover-border;
+    }
+  }
+
+  > .active > a,
+  > .active > span {
+    &,
+    &:hover,
+    &:focus {
+      z-index: 3;
+      color: white;
+      background-color: $color-primary;
+      border-color: $color-primary;
+      cursor: default;
+    }
+  }
+
+}
