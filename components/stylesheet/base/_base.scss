@@ -45,6 +45,39 @@ p {
 	@include laptop {
 		margin-bottom: 90px;
 	}
+	ul, ol {
+		margin-bottom: 30px;
+	}
+	h1 + small {
+		font-weight: 300;
+		color: $mid-color-gray;
+		margin-bottom: 15px;
+		display: block;
+		margin-top: -50px;
+	}
+	img {
+		float: left;
+		margin-right: 15px;
+		border-radius: $border-radius;
+	}
+	.gallery {
+		margin-bottom: 30px;
+		.row {
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+		.col-md-4 {
+			padding-left: 3px;
+	    padding-right: 3px;
+		}
+		.thumbnail, .thumbnail img {
+			border: none;
+			background-color: white;
+			border-radius: $border-radius;
+			padding: 0;
+			margin-bottom: 6px;
+			}
+	}
 	&--intro {
 		p:last-of-type {
 			    margin-bottom: 30px;
@@ -58,7 +91,7 @@ p {
 		color:red;
 	}
 	&--basic-content {
-		a {
+		p a {
 			background-color: $light-color-primary;
 			display: inline-block;
 			padding: 0 5px;
