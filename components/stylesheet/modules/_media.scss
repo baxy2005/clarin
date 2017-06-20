@@ -10,6 +10,10 @@
     img {
       border-radius: $border-radius;
       margin-right: 55px;
+      margin-bottom: 30px;
+      @include laptop {
+        margin-bottom: 0
+      }
     }
     display: block;
     margin-bottom: 30px;
