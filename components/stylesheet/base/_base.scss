@@ -23,12 +23,17 @@ h1 {
 	font-weight: 300;
 	@include laptop {
 		font-size: 36px;
-		line-height: 48px;
+		line-height: 42px;
 	}
 }
 h2 {
 	font-size: 28px;
 	font-weight: 400;
+}
+h3 {
+	font-size: 22px;
+	font-weight: 400;
+	margin-bottom: 4px;
 }
 p {
 	margin-bottom: 30px;
@@ -52,10 +57,11 @@ p:last-child {
 	}
 	h1 + small {
 		font-weight: 300;
-		color: $mid-color-gray;
-		margin-bottom: 15px;
+		color: $text-color-gray;
+		margin-bottom: 40px;
 		display: block;
-		margin-top: -50px;
+		margin-top: -40px;
+		line-height: 1.4;
 	}
 	img {
 		float: left;
@@ -65,6 +71,15 @@ p:last-child {
 		@include laptop {
 			margin-bottom: 0px;
 		}
+	}
+	.img-responsive {
+		float: none;
+	}
+	img + P {
+		margin-top: 30px;
+	}
+	.small-bolder {
+			font-weight: 400;
 	}
 	.gallery {
 		margin-bottom: 30px;

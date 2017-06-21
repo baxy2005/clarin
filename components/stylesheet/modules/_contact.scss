@@ -25,3 +25,18 @@
 .list-group-item:last-child {
   border: none;
 }
+// news aside
+.list-group--news-aside {
+	.list-group-item{
+		padding-left: 0px !important;
+		h4, small {
+			font-weight: 300;
+		}
+    h4 {
+      margin-bottom: 0;
+    }
+    small {
+      color: $text-color-gray;
+    }
+	}
+}

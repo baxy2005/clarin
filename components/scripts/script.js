@@ -1,17 +1,23 @@
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    autoplay: true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:2
-        }
-    }
-})
+$(document).ready(function () {
+  $('.dropdown > a ').click(function() {
+      $(this).parentsUntil('.container').find('ul.dropdown-menu:visible').slideUp();
+      $(this).next('.dropdown-menu').slideToggle("slow");
+      //$(this).parentUntil('.navmenu-nav').css('color', 'red')
+  });
+  // $('.dropdown.open').click(function() {
+  //     $(this).slideUp("slow");
+  //
+  // });
+
+  // $('.dropdown').on('click', function() {
+  //   var slide_el = $(this).next().find('.dropdown-menu');
+  //
+  //   // don't slide up if clicking on the already visible element
+  //   if (!slide_el.is(':visible')) {
+  //     $('.dropdown-menu').slideUp();
+  //   }
+  //   slide_el.slideToggle(); // only slide clicked element
+  // });
+
+
+});

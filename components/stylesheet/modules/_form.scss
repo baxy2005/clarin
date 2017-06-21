@@ -1,10 +1,13 @@
 .form-control {
   box-shadow: none;
   border: 1px solid $mid-color2-gray;
+  &:focus {
+    // border-color: red
+  }
 }
 label {
   font-size: 14px;
-  color: $text-color-gray;
+  color: $text-color2-gray;
   font-weight: normal;
 }
 .input-lg {
