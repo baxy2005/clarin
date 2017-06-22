@@ -1,1 +1,0 @@
-$(document).ready(function(){$(".dropdown > a ").click(function(){$(this).parentsUntil(".container").find("ul.dropdown-menu:visible").slideUp(),$(this).next(".dropdown-menu").slideToggle("slow")})});

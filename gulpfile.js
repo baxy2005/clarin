@@ -37,7 +37,7 @@ gulp.task('watch', function() {
 
 // Uglify Plugins
 gulp.task('uglifyPlugins', function() {
-  return gulp.src(['components/libs/jquery/dist/jquery.js', 'components/libs/jasny-bootstrap/dist/js/jasny-bootstrap.js', 'components/libs/bootstrap-sass/assets/javascripts/bootstrap.js' ])
+  return gulp.src(['components/libs/jquery/dist/jquery.js', 'components/libs/jasny-bootstrap/dist/js/jasny-bootstrap.js', 'components/libs/bootstrap-sass/assets/javascripts/bootstrap.js', 'components/libs/smartmenus-1.0.1/jquery.smartmenus.min.js', 'components/libs/smartmenus-1.0.1/addons/bootstrap/jquery.smartmenus.bootstrap.min.js' ])
 /*    .pipe(rename({
       suffix: ".min",
       extname: ".js"
@@ -49,7 +49,7 @@ gulp.task('uglifyPlugins', function() {
 
 // Minify Plugins CSS files
 gulp.task('minifyPlugins', function() {
-  return gulp.src(['components/libs/jasny-bootstrap/dist/css/jasny-bootstrap.css'])
+  return gulp.src(['components/libs/jasny-bootstrap/dist/css/jasny-bootstrap.css', 'components/libs/smartmenus-1.0.1/addons/bootstrap/jquery.smartmenus.bootstrap.css'])
 /*    .pipe(rename({
       suffix: ".min",
       extname: ".css"
