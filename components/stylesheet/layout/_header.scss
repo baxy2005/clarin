@@ -1,0 +1,54 @@
+.list-group {
+  list-style: none;
+  &--languages {
+    text-transform: uppercase;
+    position: relative;
+    @include laptop {
+      position: absolute;
+      top: 5px;
+      right: 15px;
+      bottom: 0px;
+    }
+    .list-group-item {
+      background-color: transparent;
+      padding-left: 15px !important;
+      img {
+        margin-right: 10px;
+      }
+    }
+  }
+  a {
+    color: $text-color-gray
+  }
+}
+.btn--search {
+  @include laptop {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    background-color: transparent;
+    width: 25px !important;
+  }
+}
+.navmenu-default {
+  .btn-default.btn-lg {
+    padding: 0 16px;
+    width: auto;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: -10px;
+    height: 47px;
+  }
+  .form-group-lg .form-control {
+    border-radius: 10px;
+    width: 450px;
+    font-size: 16px;
+  }
+}
+
+  .search--icon {
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/clarin-search-icon.svg");
+    background-repeat: no-repeat;
+    display: inline-block;
+  }

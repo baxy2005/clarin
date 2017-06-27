@@ -1,4 +1,29 @@
-// $(document).ready(function () {
+$(document).ready(function() {
+
+    // $('.navbar-nav li').on('click', function(){
+    //   $(this).find('.dropdown-menu').css('border', 'red').slideToggle('slow');
+    //   console.log('hello')
+    //     });
+
+    $('#search').on('click', '.btn--search', function(){
+    $('.navmenu-fixed-left').toggleClass('navmenu-fixed-left-high');
+    $('.navmenu .container:last-child').toggleClass('container-open');
+    });
+
+
+
+    $(window).resize(function() {
+
+      if ($(window).width() < 992) {
+        $('.navmenu-fixed-left').removeClass('navmenu-fixed-left-high');
+        $('.navmenu .container:last-child').removeClass('container-open');
+      }
+
+
+    });
+});
+
+
 //   // $('.dropdown > a ').click(function(e) {
 //   //     $(this).parentsUntil('.container').find('ul.dropdown-menu:visible').slideUp();
 //   //     $(this).next('.dropdown-menu').slideToggle("slow");
@@ -26,4 +51,3 @@
 //   //   slide_el.slideToggle(); // only slide clicked element
 //   // });
 //
-// });
