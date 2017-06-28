@@ -35,13 +35,27 @@
     padding: 0 16px;
     width: auto;
     border-radius: 0px 10px 10px 0px;
-    margin-left: -10px;
-    height: 47px;
+    margin-left: -12px;
+    height: 49px;
+    @include laptop {
+      margin-left: -10px;
+      height: 47px;
+
+    }
+  }
+  .form-inline .form-group {
+        display: inline-block;
+        margin-bottom: 0;
+        vertical-align: middle;
   }
   .form-group-lg .form-control {
     border-radius: 10px;
-    width: 450px;
     font-size: 16px;
+    display: inline-block;
+    width: 187px;
+    @include laptop {
+      width: 450px;
+    }
   }
 }
 

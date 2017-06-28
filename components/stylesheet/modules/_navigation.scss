@@ -52,10 +52,17 @@
     }
   }
   .container:last-child {
-    background-color: $mid-color2-gray;
-    height: 0;
-    overflow: hidden;
     transition: height .4s ease;
+    padding: 0 15px;
+    position: absolute;
+    top: 15px;
+    @include laptop {
+      position: relative;
+      background-color: $mid-color2-gray;
+      height: 0;
+      overflow: hidden;
+      top:0px;
+    }
   }
 }
 .container-open {
@@ -124,7 +131,10 @@
 //   }
 // }
 .navbar-nav {
-  margin: 15px 0;
+  margin: 90px 0 15px 0;
+  @include laptop {
+    margin:0;
+  }
   >li {
   	border-bottom: 2px solid $text-color2-gray;
     @include laptop {
@@ -272,6 +282,7 @@ padding: 15px 10px 0px 0 !important;
     width: auto;
     height: auto;
     margin-right: 10px;
+    margin-left: 0px;
   }
 }
 .dropdown {

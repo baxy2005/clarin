@@ -10,16 +10,12 @@ $(document).ready(function() {
     $('.navmenu .container:last-child').toggleClass('container-open');
     });
 
-
-
     $(window).resize(function() {
 
       if ($(window).width() < 992) {
         $('.navmenu-fixed-left').removeClass('navmenu-fixed-left-high');
         $('.navmenu .container:last-child').removeClass('container-open');
       }
-
-
     });
 });
 

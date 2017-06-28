@@ -16,7 +16,7 @@
       }
     }
     display: block;
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
     @include laptop {
       display: table-cell;
     }
@@ -50,6 +50,9 @@
       width: auto;
       display: flex;
       line-height: 1.6333;
+      &:hover, &:focus, &:active, {
+        color: $color-secondary;
+      }
     }
     .icon-read-more {
       width: 22px;

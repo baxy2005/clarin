@@ -64,12 +64,13 @@ p:last-child {
 		line-height: 1.4;
 	}
 	img {
-		float: left;
+		float: none;
 		margin-right: 15px;
 		border-radius: $border-radius;
 		margin-bottom: 15px;
 		@include laptop {
 			margin-bottom: 0px;
+			float: left;
 		}
 	}
 	.img-responsive {
@@ -161,6 +162,10 @@ p:last-child {
 		&--fag {
 			background-image: url("../images/clarin-icon-sprites.svg");
 			background-position: -224px 0;
+		}
+		&--search {
+			background-image: url("../images/clarin-icon-sprites.svg");
+			background-position: -336px 0;
 		}
 
 	}

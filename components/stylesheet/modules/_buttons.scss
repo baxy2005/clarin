@@ -3,6 +3,10 @@ font-size: 14px;
 text-transform: uppercase;
 padding: 5px 0px;
 width: 150px;
+&:hover, &:focus, &:active  {
+  outline: none !important;
+  box-shadow: none;
+}
 }
 .btn-default {
   border-radius: 100px;
